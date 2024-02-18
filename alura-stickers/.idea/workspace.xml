@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7a54b89d-86f2-41e4-92d6-ba22ff819b51" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../alura-stickers.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../properties/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/12 Angry Men.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/2001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/3 Idiots.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/A Clockwork Orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Alien.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Aliens.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Amadeus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/American Beauty.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/American History X.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Amélie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Apocalypse Now.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Avengers" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Back to the Future.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Braveheart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Capernaum.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Casablanca.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Cinema Paradiso.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Citizen Kane.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/City Lights.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/City of God.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Coco.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Come and See.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Django Unchained.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Double Indemnity.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Dr. Strangelove or" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Eternal Sunshine of the Spotless Mind.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Everything Everywhere All at Once.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Fight Club.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Forrest Gump.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Full Metal Jacket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Gladiator.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Good Will Hunting.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Goodfellas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Grave of the Fireflies.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Hamilton.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Hara-Kiri.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/High and Low.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Ikiru.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Inception.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Indiana Jones and the Raiders of the Lost Ark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Inglourious Basterds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Interstellar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/It's a Wonderful Life.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Joker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/L.A. Confidential.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Lawrence of Arabia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Life Is Beautiful.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Léon" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Memento.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Modern Times.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/North by Northwest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Oldboy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Once Upon a Time in America.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Once Upon a Time in the West.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/One Flew Over the Cuckoo's Nest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Parasite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Paths of Glory.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Princess Mononoke.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Psycho.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Pulp Fiction.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Rear Window.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Requiem for a Dream.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Reservoir Dogs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Saving Private Ryan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Scarface.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Schindler's List.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Se7en.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Seven Samurai.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Singin' in the Rain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Spider-Man" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Spirited Away.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Star Wars" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Star Wars.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Sunset Blvd..png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Taxi Driver.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Terminator 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/The Apartment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/The Boat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/The Dark Knight Rises.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/The Dark Knight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/The Departed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/The Godfather" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/The Godfather.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/The Good, the Bad and the Ugly.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/The Great Dictator.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/The Green Mile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/The Hunt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/The Intouchables.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/The Lion King.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/The Lives of Others.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/The Lord of the Rings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/The Matrix.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/The Pianist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/The Prestige.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/The Shawshank Redemption.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/The Shining.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/The Silence of the Lambs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/The Sting.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/The Usual Suspects.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/To Kill a Mockingbird.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Toy Story 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Toy Story.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Vertigo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/WALL·E.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Whiplash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Witness for the Prosecution.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/Your Name..png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saida/filme_saida.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alura-stickers.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml/src/main/resources/META-INF/maven/archetype.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml/src/main/resources/archetype-resources/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml/src/main/resources/archetype-resources/src/main/java/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml/src/main/resources/archetype-resources/src/test/java/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/properties/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saida/filme_saida.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GeradorDeFigutinhas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JasonParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Movie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MovieList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/alura-stickers/GeradorDeFigutinhas.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/alura-stickers/GeradorDeFigutinhas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2cYJ9drzTWkXc9Se7o2E3AleteR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/Dropbox/Cursos Programacao/Java/Alura/Imersao_Java"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7a54b89d-86f2-41e4-92d6-ba22ff819b51" name="Changes" comment="" />
+      <created>1708282431218</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708282431218</updated>
+    </task>
+    <servers />
+  </component>
+</project>
