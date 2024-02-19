@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e030efa4-7fb6-49a7-94d6-7742ea5490c3" name="Changes" comment="Gerador de Figurinhas." />
+    <list default="true" id="e030efa4-7fb6-49a7-94d6-7742ea5490c3" name="Changes" comment="pastas refatoradas">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/alura-stickers/GeradorDeFigutinhas.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/alura-stickers/GeradorDeFigutinhas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/alura-stickers/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/alura-stickers/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GeradorDeFigutinhas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GeradorDeFigutinhas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +25,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -67,12 +74,12 @@
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "openjdk-21",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/andre/Desktop/alura-stickers",
+    "last_opened_file_path": "D:/Dropbox/Cursos Programacao/Java/Alura/Imersao_Java",
     "onboarding.tips.debug.path": "D:/Dropbox/Cursos Programacao/Java/Alura/Imersao_Java/alura-stickers/src/Main.java",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -138,7 +145,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708271646252</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="pastas refatoradas">
+      <option name="closed" value="true" />
+      <created>1708282729697</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708282729697</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -156,7 +171,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="README" />
     <MESSAGE value="Gerador de Figurinhas." />
-    <option name="LAST_COMMIT_MESSAGE" value="Gerador de Figurinhas." />
+    <MESSAGE value="pastas refatoradas" />
+    <option name="LAST_COMMIT_MESSAGE" value="pastas refatoradas" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

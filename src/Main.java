@@ -49,18 +49,26 @@ public class Main {
 
         List<Movie> movies = movieList.getItem();
         var gerador = new GeradorDeFigutinhas();
+
         for (Movie movie : movies) {
 
             String titulo = movie.getTitle();
             String imageUrl = movie.getImage();
             String fileName = titulo + ".png";
 
-            InputStream inputStream = new URL(imageUrl).openStream();
-            gerador.cria(inputStream,fileName);
+            String imageUrlHighResolution = imageUrl.substring(0,imageUrl.indexOf("@")+1) +
+                    imageUrl.substring(imageUrl.length()-4);
 
-            System.out.println("Título: " + titulo);//System.out.println("Poster: " + movie.getImage());
-            System.out.println("\u001b[45;1m Classificação: " + movie.getImDbRating() + "\u001b[m");
-            System.out.println(printStar(movie.getImDbRating()));
+            try (InputStream inputStream = new URI(imageUrlHighResolution).toURL().openStream()) {
+
+                gerador.cria(inputStream, fileName);
+            }catch (Exception e){
+                System.err.println( titulo + " Movie Poster not found" + e.getMessage());
+            }
+
+            System.out.print("Título: " + titulo);//System.out.println("Poster: " + movie.getImage());
+            System.out.print("\n\u001b[45;1m Classificação: " + movie.getImDbRating() + "\u001b[m ");
+            System.out.print(printStar(movie.getImDbRating())+"\n\n");
 
 
         }
