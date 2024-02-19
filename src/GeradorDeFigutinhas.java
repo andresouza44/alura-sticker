@@ -29,23 +29,36 @@ public class GeradorDeFigutinhas {
         Graphics2D graphics = (Graphics2D) newImage.getGraphics();
         graphics.drawImage(originalImage, 0, 0, null);
 
-        var font = new Font(Font.SANS_SERIF,Font.ITALIC, 32);
+        var font = new Font("Comic Sans MS",Font.ITALIC, 64);
 
         var text = "Topzera !";
         var textLength = font.getSize()*(text.length());
-        var textPosition = (largura/2 - textLength/4);
+        var textHorizontalposition = (largura/2 - textLength/4);
 
         graphics.setFont(font);
         graphics.setColor(Color.YELLOW);
-        graphics.drawString(text, textPosition,novaAltura-100);
+        graphics.drawString(text, textHorizontalposition,novaAltura-100);
+
+        // Colocar Contorno na Imagem
+        Color borderColor = Color.BLACK;
+        Stroke stroke = new BasicStroke(5);
+        graphics.setColor(borderColor);
+        graphics.setStroke(stroke);
+
+        graphics.drawRect( 0, 0, largura, novaAltura );
+
+        // Colocar contorno no Texto
+        graphics.drawRect(textHorizontalposition-50,novaAltura-180,textLength-160,120);
 
         ImageIO.write(newImage, "png", new File("saida/" + fileName));
 
     };
 /*
     public static void main(String[] args) throws Exception {
+        InputStream inputStream = new FileInputStream("images/filme2.jpg");
         GeradorDeFigutinhas figura = new GeradorDeFigutinhas();
-        figura.cria();
-    }*/
+        figura.cria(inputStream,"teste.png");
+        }
+  */
+    }
 
-}
