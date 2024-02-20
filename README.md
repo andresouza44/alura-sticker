@@ -3,12 +3,12 @@
 
 ## 💻 Sobre o projeto
 
-- Construir uma aplicação do zero para consumir a API de Filmes e exibir os filmes mais populares, destacando seus pôsteres e visualizando sua classificação.
+- Construir uma aplicação para consumir a API de Filmes e exibir os filmes mais populares, destacando seus pôsteres e visualizando sua classificação.
 
 ## ⚙️ Funcionalidades
 
-- Consumir API de Filmes
-- Gerar Figurinhas a partir da URL dos Posters
+- Consumir API de Filmes.
+- Gerar Figurinhas a partir da URL dos Posters.
 
 
 ### 🚀 Tecnologias

@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e030efa4-7fb6-49a7-94d6-7742ea5490c3" name="Changes" comment="pastas refatoradas">
+    <list default="true" id="e030efa4-7fb6-49a7-94d6-7742ea5490c3" name="Changes" comment="Tratamento das Urls dos Posters">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/alura-stickers/GeradorDeFigutinhas.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/alura-stickers/GeradorDeFigutinhas.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/alura-stickers/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/alura-stickers/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GeradorDeFigutinhas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GeradorDeFigutinhas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,40 +44,40 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2cRw5nPxBD1duTCfDVFV9evSWSv" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.GeradorDeFigutinhas.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "true",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "Notification.DisplayName-DoNotAsk-External System Auto-Link Notification Group": "External system build scripts found",
-    "Notification.DoNotAsk-External System Auto-Link Notification Group": "true",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "true",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "openjdk-21",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Dropbox/Cursos Programacao/Java/Alura/Imersao_Java",
-    "onboarding.tips.debug.path": "D:/Dropbox/Cursos Programacao/Java/Alura/Imersao_Java/alura-stickers/src/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.GeradorDeFigutinhas.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;Notification.DisplayName-DoNotAsk-External System Auto-Link Notification Group&quot;: &quot;External system build scripts found&quot;,
+    &quot;Notification.DoNotAsk-External System Auto-Link Notification Group&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-21&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Dropbox/Cursos Programacao/Java/Alura/movie&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Dropbox/Cursos Programacao/Java/Alura/Imersao_Java/alura-stickers/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Dropbox\Cursos Programacao\Java\Alura\Imersao_Java\alura-stickers\images" />
@@ -153,12 +149,58 @@
       <option name="project" value="LOCAL" />
       <updated>1708282729697</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Melhorias no Gerador de Figurinhas">
+      <option name="closed" value="true" />
+      <created>1708307095564</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708307095564</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Tratamento das Urls dos Posters">
+      <option name="closed" value="true" />
+      <created>1708307152339</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708307152339</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="6754639d-76a6-421f-b00b-8142418995ef" value="TOOL_WINDOW" />
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
+        <entry key="6754639d-76a6-421f-b00b-8142418995ef">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
@@ -169,10 +211,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
     <MESSAGE value="README" />
     <MESSAGE value="Gerador de Figurinhas." />
     <MESSAGE value="pastas refatoradas" />
-    <option name="LAST_COMMIT_MESSAGE" value="pastas refatoradas" />
+    <MESSAGE value="Melhorias no Gerador de Figurinhas" />
+    <MESSAGE value="Tratamento das Urls dos Posters" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tratamento das Urls dos Posters" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
