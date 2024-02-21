@@ -3,13 +3,15 @@
 
 ## 💻 Sobre o projeto
 
-- Construir uma aplicação para consumir a API de Filmes e exibir os filmes mais populares, destacando seus pôsteres e visualizando sua classificação.
+- Construir uma aplicação para consumir a API diversas e exibir os filmes mais populares, destacando seus pôsteres ou Fotos e visualizando sua classificação.
 
 ## ⚙️ Funcionalidades
 
-- Consumir API de Filmes.
+- Consumir API Diversas.
 - Gerar Figurinhas a partir da URL dos Posters.
 
+## API Consumidas
+- IMDB
+- Nasa
+- TheMovieDb
 
-### 🚀 Tecnologias
-As seguintes tecnologias foram utilizadas no desenvolvimento do Projeto: </br>

@@ -4,16 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e030efa4-7fb6-49a7-94d6-7742ea5490c3" name="Changes" comment="">
+    <list default="true" id="e030efa4-7fb6-49a7-94d6-7742ea5490c3" name="Changes" comment="modificada as classes conteudo para record.">
+      <change afterPath="$PROJECT_DIR$/src/themovie/ConteudoTheMovie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/themovie/ExtratorDeConteudoTheMovie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/themovie/ListaDeconteudoTheMovie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/alura-stickers/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/alura-stickers/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/conteudo/Conteudo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/conteudo/Conteudo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/imdb/ConteudoIMDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imdb/ConteudoIMDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/imdb/ExtratorDeConteudoIMDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imdb/ExtratorDeConteudoIMDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/metodos/GeradorEstrelasRatio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/metodos/GeradorEstrelasRatio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nasa/ConteudoNasa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nasa/ConteudoNasa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nasa/ExtratorDeConteudoNasa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nasa/ExtratorDeConteudoNasa.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +95,7 @@
       <recent name="D:\Dropbox\Cursos Programacao\Java\Alura\Imersao_Java\alura-stickers\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="themovie" />
       <recent name="imdb" />
       <recent name="nasa" />
       <recent name="" />
@@ -211,7 +211,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708534654706</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="modificada as classes conteudo para record.">
+      <option name="closed" value="true" />
+      <created>1708543141411</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1708543141411</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -281,6 +289,7 @@
     <MESSAGE value="pacote Nasa" />
     <MESSAGE value="Extrator de Conteudo para o IMDB" />
     <MESSAGE value="APIKey" />
-    <option name="LAST_COMMIT_MESSAGE" value="APIKey" />
+    <MESSAGE value="modificada as classes conteudo para record." />
+    <option name="LAST_COMMIT_MESSAGE" value="modificada as classes conteudo para record." />
   </component>
 </project>
