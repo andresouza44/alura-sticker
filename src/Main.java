@@ -1,14 +1,11 @@
 import conteudo.Conteudo;
+import conteudo.ExtratorDeConteudo;
 import imdb.ExtratorDeConteudoIMDB;
-import metodos.ApiKey;
-import metodos.GeradorEstrelasRatio;
+import nasa.ExtratorDeConteudoNasa;
 
-import java.io.FileInputStream;
-import java.io.IOException;
 import java.io.InputStream;
 import java.net.URI;
 import java.util.List;
-import java.util.Properties;
 
 
 public class Main {
@@ -18,12 +15,11 @@ public class Main {
     //  String url = "https://api.themoviedb.org/3/discover/movie?api_key=" + API_KEY + "&language=pt-br" + "&page=2";
 
 
-    //  String url = "https://api.mocki.io/v2/549a5d8b/NASA-APOD"; // NASA
-    //  ExtratorConteudoNasa extrator = new ExtratorConteudoNasa();
+    /*  String url = "https://api.mocki.io/v2/549a5d8b/NASA-APOD"; // NASA
+      ExtratorDeConteudo extrator = new ExtratorDeConteudoNasa();*/
 
       String url = "https://mocki.io/v1/9a7c1ca9-29b4-4eb3-8306-1adb9d159060";
-      ExtratorDeConteudoIMDB extrator = new ExtratorDeConteudoIMDB();
-
+      ExtratorDeConteudo extrator = new ExtratorDeConteudoIMDB();
         var http = new ClientHTTP();
         String json = http.getData(url);
 
@@ -32,9 +28,10 @@ public class Main {
         var gerador = new GeradorDeFigutinhas();
 
         List<Conteudo> conteudos = extrator.extrairConteudos(json);;
-        for (Conteudo conteudo : conteudos.subList(0,3)) {
-            String titulo = conteudo.getTitle();
-            String imageUrl = conteudo.getImageUrl();
+        // Gerar Figurinhas
+        for (Conteudo conteudo : conteudos.subList(0,5)) {
+            String titulo = conteudo.title();
+            String imageUrl = conteudo.imageUrl();
             String fileName = titulo + ".png";
 
             try (InputStream inputStream = new URI(imageUrl).toURL().openStream()) {

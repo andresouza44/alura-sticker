@@ -15,21 +15,25 @@ public class ExtratorDeConteudoIMDB implements ExtratorDeConteudo {
         ListaDeConteudosImdb listaDeConteudosImdb = gson.fromJson(json, ListaDeConteudosImdb.class);
 
         return listaDeConteudosImdb.getItems().stream()
-                .map(atributos ->
-                        new Conteudo(atributos.getTitle(), atributos.getImage().substring(0,atributos.getImage().indexOf("@")+1) +
-                                atributos.getImage().substring(atributos.getImage().length()-4)))
-                .toList();
+            .map(atributos ->
+                    new Conteudo(atributos.title(),getCorrectUrlPoster(atributos.image())))
+            .toList();
     }
 
     @Override
     public void imprimirAtributos(String json) {
         ListaDeConteudosImdb listaDeConteudosImdb = gson.fromJson(json, ListaDeConteudosImdb.class);
         for (ConteudoIMDB item : listaDeConteudosImdb.getItems()) {
-            System.out.print("Título: " + item.getTitle());
-            System.out.print("\n\u001b[45;1m Classificação: " + item.getImDbRating() + "\u001b[m ");
-            System.out.print(GeradorEstrelasRatio.printStar(item.getImDbRating())+"\n\n");
+            System.out.print("Título: " + item.title());
+            System.out.print("\n\u001b[45;1m Classificação: " + item.imDbRating() + "\u001b[m ");
+            System.out.print(GeradorEstrelasRatio.printStar(item.imDbRating())+"\n\n");
 
         }
     }
-}
 
+    private String getCorrectUrlPoster (String url){
+        return url.substring(0,url.indexOf("@")+1)
+                + url.substring(url.length()-4);
+
+    }
+}

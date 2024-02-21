@@ -14,7 +14,7 @@ public class ExtratorDeConteudoNasa implements ExtratorDeConteudo {
       ConteudoNasa[] conteudoNasa = gson.fromJson(json, ConteudoNasa[].class);
 
       return Arrays.stream(conteudoNasa).
-            map(atrubutos -> new Conteudo(atrubutos.getTitle(), atrubutos.getUrl()))
+            map(atributos -> new Conteudo(atributos.title(), atributos.url()))
             .toList();
     }
 
@@ -23,7 +23,7 @@ public class ExtratorDeConteudoNasa implements ExtratorDeConteudo {
 
         ConteudoNasa[] conteudoNasa = gson.fromJson(json, ConteudoNasa[].class);
         for (ConteudoNasa nasa : conteudoNasa) {
-            System.out.println(nasa.getTitle() + "\n" + nasa.getUrl());
+            System.out.println(nasa.title() + "\n" + nasa.url());
 
         }
     }
