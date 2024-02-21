@@ -1,5 +1,7 @@
+package metodos;
+
 public class GeradorEstrelasRatio {
-    static String printStar (String star){
+    public static String printStar (String star){
         int starInteger = (int) Math.round(Double.parseDouble(star));
 
         return switch (starInteger) {

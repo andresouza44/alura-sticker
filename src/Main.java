@@ -1,9 +1,11 @@
 import conteudo.Conteudo;
-import nasa.ExtratorConteudoNasa;
+import imdb.ExtratorDeConteudoIMDB;
+import metodos.GeradorEstrelasRatio;
 
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.util.ArrayList;
+import java.io.InputStream;
+import java.net.URI;
 import java.util.List;
 import java.util.Properties;
 
@@ -19,97 +21,39 @@ public class Main {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-
-        //String url = "https://mocki.io/v1/9a7c1ca9-29b4-4eb3-8306-1adb9d159060";
         // String url = "https://api.themoviedb.org/3/discover/movie?api_key=" + API_KEY + "&language=pt-br" + "&page=2";
 
-        String url = "https://api.mocki.io/v2/549a5d8b/NASA-APOD"; // NASA
-        ExtratorConteudoNasa extrator = new ExtratorConteudoNasa();
 
+        //String url = "https://api.mocki.io/v2/549a5d8b/NASA-APOD"; // NASA
+        //ExtratorConteudoNasa extrator = new ExtratorConteudoNasa();
+
+        String url = "https://mocki.io/v1/9a7c1ca9-29b4-4eb3-8306-1adb9d159060";
+        ExtratorDeConteudoIMDB extrator = new ExtratorDeConteudoIMDB();
 
         var http = new ClientHTTP();
         String json = http.getData(url);
 
+        extrator.imprimirAtributos(json);
+
         var gerador = new GeradorDeFigutinhas();
 
         List<Conteudo> conteudos = extrator.extrairConteudos(json);;
-        for (Conteudo conteudo : conteudos) {
-            System.out.println(conteudo.getTitle() + "\n" + conteudo.getImageUrl());
+        for (Conteudo conteudo : conteudos.subList(0,3)) {
+            String titulo = conteudo.getTitle();
+            String imageUrl = conteudo.getImageUrl();
+            String fileName = titulo + ".png";
+
+            try (InputStream inputStream = new URI(imageUrl).toURL().openStream()) {
+                gerador.cria(inputStream, fileName);
+            }catch (Exception e){
+                System.err.println( "\n" + titulo + " Movie Poster not found " + e.getMessage());
+            }
         }
 
     }
 }
 
-/*
 
-        try {
-            ListaDeConteudosImdb listaDeConteudosImdb = gson.fromJson(json, ListaDeConteudosImdb.class);
-            List<conteudo.Conteudo> conteudos = listaDeConteudosImdb.getItem().subList(0,10);
-
-
-            for (conteudo.Conteudo conteudo : conteudos) {
-
-                String titulo = conteudo.getTitle();
-                String imageUrl = conteudo.getImage();
-                String fileName = titulo + ".png";
-
-                String imageUrlHighResolution = imageUrl.substring(0,imageUrl.indexOf("@")+1) +
-                        imageUrl.substring(imageUrl.length()-4);
-
-                try (InputStream inputStream = new URI(imageUrlHighResolution).toURL().openStream()) {
-
-                    gerador.cria(inputStream, fileName);
-                }catch (Exception e){
-                    System.err.println( titulo + " Movie Poster not found" + e.getMessage());
-                }
-
-                System.out.print("Título: " + titulo);//System.out.println("Poster: " + movie.getImage());
-                System.out.print("\n\u001b[45;1m Classificação: " + conteudo.getImDbRating() + "\u001b[m ");
-                System.out.print(printStar(conteudo.getImDbRating())+"\n\n");
-
-
-            }
-
-
-
-
-
-            }
-        }
-
-
-*/
-
-        /*
-
-        var gerador = new GeradorDeFigutinhas();
-
-        for (conteudo.Conteudo conteudo : conteudos) {
-
-            String titulo = conteudo.getTitle();
-            String imageUrl = conteudo.getImage();
-            String fileName = titulo + ".png";
-
-            String imageUrlHighResolution = imageUrl.substring(0,imageUrl.indexOf("@")+1) +
-                    imageUrl.substring(imageUrl.length()-4);
-
-            try (InputStream inputStream = new URI(imageUrlHighResolution).toURL().openStream()) {
-
-                gerador.cria(inputStream, fileName);
-            }catch (Exception e){
-                System.err.println( titulo + " Movie Poster not found" + e.getMessage());
-            }
-
-            System.out.print("Título: " + titulo);//System.out.println("Poster: " + movie.getImage());
-            System.out.print("\n\u001b[45;1m Classificação: " + conteudo.getImDbRating() + "\u001b[m ");
-            System.out.print(printStar(conteudo.getImDbRating())+"\n\n");
-
-
-        }
-
-    }
-
-*/
 
 
 

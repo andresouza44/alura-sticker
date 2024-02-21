@@ -9,13 +9,9 @@ public class ConteudoIMDB {
     private String image;
     private String imDbRating;
     private String imDbRatingCount;
-    private String url;
-
 
 
     public ConteudoIMDB(){}
-
-
 
 
     public String getId() {
@@ -50,13 +46,7 @@ public class ConteudoIMDB {
         this.year = year;
     }
 
-    public String getUrl() {
-        return url;
-    }
 
-    public void setUrl(String url) {
-        this.url = url;
-    }
 
     public String getImDbRatingCount() {
         return imDbRatingCount;
@@ -99,7 +89,6 @@ public class ConteudoIMDB {
                 ", fullTitle='" + fullTitle + '\'' +
                 ", year='" + year + '\'' +
                 ", image='" + image + '\'' +
-                ", url='" + url + '\'' +
                 ", imDbRating='" + imDbRating + '\'' +
                 ", imDbRatingCount='" + imDbRatingCount + '\'' +
                 '}';

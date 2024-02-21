@@ -4,6 +4,9 @@ public class ConteudoNasa {
     private String title;
     private String url;
 
+    public ConteudoNasa(){
+
+    }
     public ConteudoNasa(String image, String url) {
         this.title = image;
         this.url = url;
