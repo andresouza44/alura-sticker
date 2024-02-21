@@ -4,17 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e030efa4-7fb6-49a7-94d6-7742ea5490c3" name="Changes" comment="Tratamento das Urls dos Posters">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClientHTTP.java" afterDir="false" />
+    <list default="true" id="e030efa4-7fb6-49a7-94d6-7742ea5490c3" name="Changes" comment="ClientHTTP Class">
+      <change afterPath="$PROJECT_DIR$/src/GeradorEstrelasRatio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/conteudo/Conteudo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/conteudo/ExtratorDeConteudo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nasa/ConteudoNasa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nasa/ExtratorConteudoNasa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/alura-stickers/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/alura-stickers/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/alura-stickers/Movie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/alura-stickers/MovieList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/properties/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/properties/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Conteudo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imdb/ConteudoIMDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ListaDeConteudos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imdb/ListaDeConteudosImdb.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Conteudo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MovieList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListaDeConteudos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -87,11 +88,17 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="nasa" />
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Dropbox\Cursos Programacao\Java\Alura\Imersao_Java\alura-stickers\images" />
       <recent name="D:\Dropbox\Cursos Programacao\Java\Alura\Imersao_Java\alura-stickers\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="imdb" />
+      <recent name="nasa" />
       <recent name="" />
     </key>
   </component>
@@ -173,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708307152339</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ClientHTTP Class">
+      <option name="closed" value="true" />
+      <created>1708516165831</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1708516165831</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -239,6 +254,7 @@
     <MESSAGE value="pastas refatoradas" />
     <MESSAGE value="Melhorias no Gerador de Figurinhas" />
     <MESSAGE value="Tratamento das Urls dos Posters" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tratamento das Urls dos Posters" />
+    <MESSAGE value="ClientHTTP Class" />
+    <option name="LAST_COMMIT_MESSAGE" value="ClientHTTP Class" />
   </component>
 </project>

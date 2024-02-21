@@ -1,16 +1,11 @@
-import com.google.gson.Gson;
-import com.google.gson.JsonSyntaxException;
+import conteudo.Conteudo;
+import nasa.ExtratorConteudoNasa;
 
-import javax.lang.model.element.NestingKind;
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.io.InputStream;
-import java.net.URI;
-import java.net.http.HttpClient;
-import java.net.http.HttpRequest;
-import java.net.http.HttpResponse;
-import java.time.Duration;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Properties;
 
 
 public class Main {
@@ -26,20 +21,33 @@ public class Main {
         }
 
         //String url = "https://mocki.io/v1/9a7c1ca9-29b4-4eb3-8306-1adb9d159060";
-         String url = "https://api.mocki.io/v2/549a5d8b/NASA-APOD"; // NASA
-       // String url = "https://api.themoviedb.org/3/discover/movie?api_key=" + API_KEY + "&language=pt-br" + "&page=2";
+        // String url = "https://api.themoviedb.org/3/discover/movie?api_key=" + API_KEY + "&language=pt-br" + "&page=2";
+
+        String url = "https://api.mocki.io/v2/549a5d8b/NASA-APOD"; // NASA
+        ExtratorConteudoNasa extrator = new ExtratorConteudoNasa();
+
 
         var http = new ClientHTTP();
         String json = http.getData(url);
 
-        Gson gson = new Gson();
+        var gerador = new GeradorDeFigutinhas();
+
+        List<Conteudo> conteudos = extrator.extrairConteudos(json);;
+        for (Conteudo conteudo : conteudos) {
+            System.out.println(conteudo.getTitle() + "\n" + conteudo.getImageUrl());
+        }
+
+    }
+}
+
+/*
 
         try {
-            ListaDeConteudos listaDeConteudos = gson.fromJson(json, ListaDeConteudos.class);
-            List<Conteudo> conteudos = listaDeConteudos.getItem().subList(0,10);
-            var gerador = new GeradorDeFigutinhas();
+            ListaDeConteudosImdb listaDeConteudosImdb = gson.fromJson(json, ListaDeConteudosImdb.class);
+            List<conteudo.Conteudo> conteudos = listaDeConteudosImdb.getItem().subList(0,10);
 
-            for (Conteudo conteudo : conteudos) {
+
+            for (conteudo.Conteudo conteudo : conteudos) {
 
                 String titulo = conteudo.getTitle();
                 String imageUrl = conteudo.getImage();
@@ -63,28 +71,20 @@ public class Main {
             }
 
 
-        }catch (JsonSyntaxException e) {
-            System.out.println(e.getMessage());
-            Conteudo[] conteudos = gson.fromJson(json, Conteudo[].class);
 
-            var gerador = new GeradorDeFigutinhas();
-
-            for (Conteudo conteudo : conteudos) {
-
-                String titulo = conteudo.getTitle();
-                System.out.println(titulo + "\n" + conteudo.getUrl());
 
 
             }
         }
 
 
+*/
 
         /*
 
         var gerador = new GeradorDeFigutinhas();
 
-        for (Conteudo conteudo : conteudos) {
+        for (conteudo.Conteudo conteudo : conteudos) {
 
             String titulo = conteudo.getTitle();
             String imageUrl = conteudo.getImage();
@@ -106,27 +106,10 @@ public class Main {
 
 
         }
+
+    }
+
 */
-    }
-        static String printStar (String star){
-            int starInteger = (int) Math.round(Double.parseDouble(star));
-
-            return switch (starInteger) {
-                case 1 -> "⭐";
-                case 2 -> "⭐⭐";
-                case 3 -> "⭐⭐⭐";
-                case 4 -> "⭐⭐⭐⭐⭐";
-                case 5 -> "⭐⭐⭐⭐⭐⭐";
-                case 6 -> "⭐⭐⭐⭐⭐⭐⭐";
-                case 7 -> "⭐⭐⭐⭐⭐⭐⭐⭐";
-                case 8 -> "⭐⭐⭐⭐⭐⭐⭐⭐⭐";
-                case 9 -> "⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐";
-                case 10 -> "⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐";
-                default -> "";
-            };
-    }
-
-}
 
 
 

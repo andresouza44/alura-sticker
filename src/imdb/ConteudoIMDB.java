@@ -1,4 +1,6 @@
-public class Conteudo {
+package imdb;
+
+public class ConteudoIMDB {
     private String id;
     private String rank;
     private String title;
@@ -10,7 +12,8 @@ public class Conteudo {
     private String url;
 
 
-    public Conteudo(){}
+
+    public ConteudoIMDB(){}
 
 
 
