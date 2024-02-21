@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e030efa4-7fb6-49a7-94d6-7742ea5490c3" name="Changes" comment="pacote Nasa">
-      <change afterPath="$PROJECT_DIR$/src/imdb/ExtratorDeConteudoIMDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nasa/ExtratorDeConteudoNasa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/alura-stickers/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/alura-stickers/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GeradorEstrelasRatio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/metodos/GeradorEstrelasRatio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JasonParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/metodos/JasonParser.java" afterDir="false" />
+    <list default="true" id="e030efa4-7fb6-49a7-94d6-7742ea5490c3" name="Changes" comment="Extrator de Conteudo para o IMDB">
+      <change afterPath="$PROJECT_DIR$/src/metodos/ApiKey.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/conteudo/ExtratorDeConteudo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/conteudo/ExtratorDeConteudo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/imdb/ConteudoIMDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imdb/ConteudoIMDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/imdb/ListaDeConteudosImdb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imdb/ListaDeConteudosImdb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nasa/ConteudoNasa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nasa/ConteudoNasa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nasa/ExtratorConteudoNasa.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708523766682</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Extrator de Conteudo para o IMDB">
+      <option name="closed" value="true" />
+      <created>1708533964056</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1708533964056</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -266,6 +264,7 @@
     <MESSAGE value="Tratamento das Urls dos Posters" />
     <MESSAGE value="ClientHTTP Class" />
     <MESSAGE value="pacote Nasa" />
-    <option name="LAST_COMMIT_MESSAGE" value="pacote Nasa" />
+    <MESSAGE value="Extrator de Conteudo para o IMDB" />
+    <option name="LAST_COMMIT_MESSAGE" value="Extrator de Conteudo para o IMDB" />
   </component>
 </project>
