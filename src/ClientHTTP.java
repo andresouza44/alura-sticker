@@ -10,18 +10,29 @@ import java.util.Properties;
 
 public class ClientHTTP {
 
-    public  String getData (String url) {
+    public String getData (String url){
+        return getData(url, null);
+    }
+
+    public  String getData (String url, String authorizationToken ) {
         try {
             HttpClient client = HttpClient.newHttpClient();
 
-            HttpRequest request = HttpRequest.newBuilder()
+            HttpRequest.Builder requestBuilder = HttpRequest.newBuilder()
                     .GET()
                     .timeout(Duration.ofSeconds(10))
-                    .uri(URI.create(url))
-                    .build();
+                    .uri(URI.create(url));
+
+            if (authorizationToken != null) {
+                requestBuilder.header("Authorization",  authorizationToken);
+            }
+
+            HttpRequest request = requestBuilder.build();
 
             HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
+
             return  response.body();
+
 
         } catch (IOException | InterruptedException ex) {
             throw new RuntimeException();
